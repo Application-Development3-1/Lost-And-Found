@@ -1,11 +1,13 @@
 *{
-  font-family: Arial, Helvetica, sans-serif;
+ font-family: Arial, Helvetica, sans-serif;
 }
 .bodycolor{
+	
   background-color: #F6F6EF;
 }
 
 .STIlogo{
+	
   background-image: url(sti.jpg);
   width: 100px;
   height: 61px;
@@ -16,25 +18,48 @@
   position: absolute;
 }
 
-.box{
-  width: 400px;
-  background-color: white;
-  height: 500px;
-  margin-top: 40px;
-  margin-right: 40px;
-  border-radius: 20px;
-
-  padding-right: 20px;
+#top_bar_container{
+	
+	height: 100px; 
+	background-color: white;
 }
 
-#text_nav{
-  color: #008FEF;
-  font-size: 40px;
+
+#lost_and_found_container{
+	
+  color: #008FEF; 
+  font-size: 40px; 
   font-weight: bold;
-  margin-left : 625px;
+  margin-left: 52%; 
+  margin-top: 50px; 
+  position: absolute; 
+  transform: translate(-50%, -50%);
 }
 
-#post{
+#icon_home_container{
+	
+	position: absolute; 
+	margin-left:  98%; 
+	margin-top: 45px; 
+	transform: translate(-50%, -50%);
+}
+
+#icon_home_style{
+	
+	color: #008FEF; 
+	font-size: 36px;
+}
+
+#post_outer_container{
+	
+	position:absolute; 
+	transform: translate(-50%, -50%); 
+	margin-left: 42%; 
+	margin-top: 325px;
+}
+
+#post_container{
+	
   height: 590px;
   width: 700px;
   margin-top: 30px;
@@ -43,15 +68,32 @@
   background-color: white;
 }
 
-#post_content{
+#icon_person_circle_style{
+	color: #008FEF; 
+	font-size: 45px; 
+	position: absolute; 
+	margin-left: 50px; 
+	margin-top: 90px; 
+	transform: translate(-50%, -50%);
+}
+
+#icon_plus_circle_fill_style{
+	color: #008FEF; 
+	font-size: 30px; 
+	position: absolute; 
+	margin-left: 600px; 
+	margin-top: 555px; 
+	transform: translate(-50%, -50%);
+}
+
+
+
+#post_content_container{
+	
   background-color:#F6F6EF ;
   height: 490px;
   width: 520px;
   margin-top: 40px;
   margin-left: 110px;
   border-radius: 20px;
-  
 }
-
-
-
