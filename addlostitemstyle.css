@@ -1,0 +1,123 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+   }
+
+
+#top_bar_container{
+    background-color: #FFD21D;
+    width: 100%;
+    height: 100px;
+ 
+}
+
+.STIlogo{
+    background-image: url(stilogoresized.png);
+  width: 160px;
+  height: 91px;
+  top: 0%;
+  left: 0%;
+  margin-top: 3px;
+  margin-left: 8px;
+  position: absolute;
+}
+
+#lost_and_found_text_style{
+    color: #008FEF; 
+  font-size: 20px; 
+  font-weight: bold;
+  margin-left: 250px; 
+  margin-top: 50px; 
+  position: absolute; 
+  transform: translate(-50%, -50%);
+}
+
+#home_icon{
+    color: #008FEF; 
+    font-size: 36px; 
+    position: absolute; 
+    left:97%; top:4.5%; 
+    transform: translate(-50%, -50%);
+}
+
+.bodycolor{
+    background-color: gray;
+    
+}
+#input_box{
+
+    
+    margin-top: 1%;
+    background-color: white;
+    width: 700px;
+    height: 700px;
+    margin-bottom: 1%;
+    border-radius: 30px;
+
+}
+#addlost_header_text{
+
+    margin-top: 10px;
+    text-align: center;
+    font-size: 42px;
+    color: #008fef;
+    font-weight: bold;
+
+}
+#textcontainer{
+    margin-top: 20px;
+    width: 640px;
+    height: 60px;
+    border-radius: 30px; /* pang curve ng edges ng box*/
+    font-size: 25px;
+}
+#textcontainer2{
+    margin-top: 20px;
+    width: 640px;
+    height: 150px;
+    border-radius: 20px; 
+    font-size: 25px;
+}
+#addimage{
+    margin-top: 25px;
+    width: 250px;
+    height: 60px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: #008fef;
+    color:white;
+    border: none;
+   
+
+}
+#image_icon_style{
+    color: white;
+}
+
+#butpost{
+    margin-top: 25px;
+    width: 125px;
+    height: 50px;
+    border-radius: 30px;
+    margin-left: 160px;
+    position:absolute;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #008fef;
+    color:white;
+    border: none;
+}
+#butcancel{
+    margin-top: 25px;
+    width: 125px;
+    height: 50px;
+    border-radius: 30px;
+    margin-left: 50px;
+    position:absolute;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #008fef;
+    color:white;
+    border: none;
+}

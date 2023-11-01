@@ -16,8 +16,8 @@
 
       <div class = "col">
         <div class="STIlogo"></div>
+        <div class="col" id = "lost_and_found_text_container">LOST AND FOUND</div>
       </div>
-      <div class="col" id = "lost_and_found_container">LOST AND FOUND</div>
       <div class ="col" id = "icon_home_container">
       <i class="fa-solid fa-house" id = "icon_home_style"></i>
       </div> 
@@ -25,7 +25,7 @@
   </div>
 
 
-  <div id = "post_outer_container">
+  <div id = "post_outer_container" name="Post_outer_container">
     <div class = "row row-cols-auto" >
       <div class = "col" >
         <div class = "row row-cols-auto" >
@@ -34,9 +34,26 @@
         </div>
       </div>
       <div class = "col" id = "post_container">
-        <i class="bi bi-person-circle" id = "icon_person_circle_style"></i>
-        <i class="bi bi-plus-circle-fill" id = "icon_plus_circle_fill_style"></i>
-        <div id = "post_content_container">
+        <div id = "icon_person_circle_style"></div>
+        <input type="text" name="username" id="username_text" value="Jang Won-young" readonly="readonly" disabled = "disabled"/>
+          
+      
+        <div id="post_text_container" name = "Text_container">
+          What? Iphone 11 <br>
+          Where? CR in Annex <br>
+          When did you found it? August 3, 2022 11:89 Am <br>
+          Additional information: Silver walang case 
+        </div>
+        <button type="button" onclick ="addlostitem()" name ="addbutton_landfevent" class = "bi bi-plus-circle-fill" id = "icon_plus_circle_fill_style">
+
+        
+        </button>
+        <div id = "post_content_container" name="picture_Adjust">
+        <div id = "post_content_image_example" >
+
+        </div>
         </div>
       </div>
     </div>
+    <script src="lostandfoundscript.js"></script>
+    </body>

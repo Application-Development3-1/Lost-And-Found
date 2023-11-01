@@ -8,29 +8,28 @@
 
 .STIlogo{
 	
-  background-image: url(sti.jpg);
-  width: 100px;
-  height: 61px;
+  background-image: url(stilogoresized.png);
+  width: 160px;
+  height: 91px;
   top: 0%;
   left: 0%;
-  margin-top: 20px;
-  margin-left: 20px;
+  margin-top: 3px;
+  margin-left: 8px;
   position: absolute;
 }
 
 #top_bar_container{
 	
 	height: 100px; 
-	background-color: white;
+	background-color:#FFD21D;
 }
 
-
-#lost_and_found_container{
+#lost_and_found_text_container{
 	
   color: #008FEF; 
-  font-size: 40px; 
+  font-size: 20px; 
   font-weight: bold;
-  margin-left: 52%; 
+  margin-left: 250px; 
   margin-top: 50px; 
   position: absolute; 
   transform: translate(-50%, -50%);
@@ -69,12 +68,34 @@
 }
 
 #icon_person_circle_style{
-	color: #008FEF; 
-	font-size: 45px; 
+  background-image: url(wonyoung\ 70X70.jpg);
+	width: 70px;
+  height: 70px;
+  border-radius: 100%;
 	position: absolute; 
-	margin-left: 50px; 
-	margin-top: 90px; 
+	margin-left: 60px; 
+	margin-top: 80px; 
 	transform: translate(-50%, -50%);
+}
+#username_text{
+  margin-top: 65px;
+  margin-left: 120px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  background: none;
+  padding: 0;
+
+}
+
+#post_text_container{
+  margin-top: 20px;
+  margin-left: 120px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+
 }
 
 #icon_plus_circle_fill_style{
@@ -82,8 +103,11 @@
 	font-size: 30px; 
 	position: absolute; 
 	margin-left: 600px; 
-	margin-top: 555px; 
+	margin-top: 355px; 
 	transform: translate(-50%, -50%);
+  border: none;
+  background: none;
+  padding: 0;
 }
 
 
@@ -91,9 +115,15 @@
 #post_content_container{
 	
   background-color:#F6F6EF ;
-  height: 490px;
+  height: 302px;
   width: 520px;
-  margin-top: 40px;
+  margin-top: 25px;
   margin-left: 110px;
+  border-radius: 20px;
+}
+#post_content_image_example{
+  background-image: url(iphone-11pro-2re.jpg);
+  height: 302px;
+  width: 520px;
   border-radius: 20px;
 }
